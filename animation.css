@@ -1,0 +1,26 @@
+/* ========================= show-bar =========================*/
+
+
+@keyframes show-bars {
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/* ========================= show-navbar =========================*/
+
+@keyframes show-navbar {
+    100%{
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}
+
+
+/* ========================= rotate-border =========================*/
+@keyframes rotate-border {
+    100%{
+        transform: rotate(360deg);
+    }
+}
